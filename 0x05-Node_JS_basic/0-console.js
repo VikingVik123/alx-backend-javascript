@@ -2,6 +2,8 @@
  * Function that prints in STDOUT the string argument
  */
 
-export default function displayMessage(mes) {
-    console.log(mes);
-}
+const displayMessage = (msg) => {
+    console.log(msg);
+};
+
+module.exports = displayMessage;
